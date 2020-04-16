@@ -1,0 +1,14 @@
+{
+  "name": "reg-rules",
+  "version": "1.0.0",
+  "author": "zhengaojin <zhengaojin@live.cn>",
+  "private": false,
+  "description": "Regular expressions commonly used in javascript",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "regular",
+    "regexp"
+  ]
+}
