@@ -9,35 +9,35 @@ import {
 } from './constant'
 
 export const isImage = (fileName) => {
-    return IMAGE.test(fileName.toLowerCase())
+    return IMAGE.test(fileName)
 }
 
 export const isWord = (fileName) => {
-    return WORD.test(fileName.toLowerCase())
+    return WORD.test(fileName)
 }
 
 export const isExcel = (fileName) => {
-    return EXCEL.test(fileName.toLowerCase())
+    return EXCEL.test(fileName)
 }
 
 export const isPdf = (fileName) => {
-    return PDF.test(fileName.toLowerCase())
+    return PDF.test(fileName)
 }
 
 export const isPpt = (fileName) => {
-    return PPT.test(fileName.toLowerCase())
+    return PPT.test(fileName)
 }
 
 export const isZip = (fileName) => {
-    return ZIP.test(fileName.toLowerCase())
+    return ZIP.test(fileName)
 }
 
 export const isMusic = (fileName) => {
-    return MUSIC.test(fileName.toLowerCase())
+    return MUSIC.test(fileName)
 }
 
 export const isVideo = (fileName) => {
-    return VIDEO.test(fileName.toLowerCase())
+    return VIDEO.test(fileName)
 }
 
 export const isMobile = (value) => {
