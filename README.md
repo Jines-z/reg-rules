@@ -24,7 +24,7 @@ isImage('test.png') // true
 /\.(doc[xm]?|dot[xm]?|wps|wpt)$/i
 
 import { isWord } from 'reg-rules'
-isWord('test.woc') // true
+isWord('test.doc') // true
 ```
 
 ### Excel表格
